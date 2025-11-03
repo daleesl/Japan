@@ -4,8 +4,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body {
+    background-color: #121212;
+    color: white;
+    scroll-behavior: smooth;
+}
+.hero-video video {
+    filter: brightness(0.5);
+}
 
-a {
-    text-decoration: none;
-    color: white !important;
+.hero-text {
+    font-size: 8rem;
 }
